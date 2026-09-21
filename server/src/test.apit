@@ -1,0 +1,46 @@
+{
+  "method": "post",
+  "url": "http://localhost:5000/api/auth/register",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "headersArray": [
+    [
+      "32265e55-d8e2-4a0e-a497-588c6e3d969f",
+      "Content-Type",
+      "application/json",
+      true,
+      "STRING"
+    ]
+  ],
+  "backup": {
+    "bodyType": "raw",
+    "bodySubType": "json",
+    "rawData": "{\nname: \"Fabian Test\",\nemail: \"fabian-test@example.com\",\npassword: \"password123\"\n}",
+    "data": {},
+    "dataArray": [
+      [
+        "78775983-1294-4418-906d-2cc8faa71ba1",
+        "name",
+        "Fabian Test",
+        true,
+        "STRING"
+      ],
+      [
+        "c16a8fed-f166-445a-89d7-fba935a485b2",
+        "email",
+        "fabian@example.com",
+        true,
+        "STRING"
+      ],
+      [
+        "0497b47c-f8bf-4cf3-8689-0c5b9f472bef",
+        "password",
+        "password123",
+        true,
+        "STRING"
+      ]
+    ]
+  },
+  "data": {}
+}
