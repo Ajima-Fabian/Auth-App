@@ -209,7 +209,7 @@ const Dashboard = () => {
                         Dashboard
                     </p>
                     <h1 className='mt-2 text-3xl font-bold tracking-tight text-slate-900 lg:text-4xl'>
-                        Welcome back, {user?.name}
+                        Hello, {user?.name}
                     </h1>
                     <p className='mt-3 text-slate-600'>
                         Manage your account and keep track of your security.
