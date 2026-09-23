@@ -5,7 +5,7 @@ const isProduction = env.NODE_ENV === "production"
 const cookieOption = {
     httpOnly: true,
     secure: isProduction,
-    sameSite: "lax"
+    sameSite: isProduction ? "none" : "lax"
 }
 
 export const clearAuthCookies = (res) => {
